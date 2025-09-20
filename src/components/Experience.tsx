@@ -3,7 +3,6 @@ import {
   Calendar,
   MapPin,
   ExternalLink,
-  Award,
   TrendingUp,
 } from "lucide-react";
 import { Badge } from "./ui/Badge";
