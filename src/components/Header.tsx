@@ -31,15 +31,15 @@ const Header = () => {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <>
-      <nav
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          isScrolled
-            ? "bg-white/70 backdrop-blur-lg shadow-lg border-b border-orange-200 scale-[0.98]"
-            : "bg-white/40 backdrop-blur-md shadow border-b border-transparent scale-100"
-        }`}
-      >
-        <div className="max-w-7xl mx-auto px-4 md:px-1 py-3 md:py-5 flex items-center justify-between">
+    <nav
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
+        isScrolled
+          ? "bg-white/95 backdrop-blur-md shadow-lg  border-orange-200"
+          : "bg-white/80 backdrop-blur-sm"
+      }`}
+    >
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo Left */}
           <div className="flex-shrink-0">
             <ScrollLink
@@ -107,7 +107,7 @@ const Header = () => {
 
         {/* Mobile Navigation Overlay */}
         <div
-          className={`lg:hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-lg rounded-b-lg shadow-lg z-40 transition-all duration-500 ease-in-out overflow-hidden ${
+          className={`lg:hidden transition-all duration-500 ease-in-out overflow-hidden ${
             isMenuOpen
               ? "max-h-96 opacity-100 visible"
               : "max-h-0 opacity-0 invisible"
@@ -147,11 +147,8 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </nav>
-
-      {/* Content padding below fixed header */}
-      <div className="pt-16 md:pt-20"></div>
-    </>
+      </div>
+    </nav>
   );
 };
 

@@ -18,14 +18,14 @@ const socialLinks = [
 
 const About: React.FC = () => {
   return (
-    <div id="about" className="min-h-screen bg-gray-50">
-      <div className="px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div id="about" className="min-h-screen">
+      <div className="px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8 ">
         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Left Content */}
           <div className="order-2 space-y-8 lg:order-1">
             <div className="space-y-4">
               <div className="inline-block">
-                <span className="inline-block px-3 py-1 text-sm font-medium text-blue-800 bg-blue-100 rounded-full">
+                <span className="px-3 py-1 text-sm font-medium text-blue-800 bg-blue-100 rounded-full">
                   👋 Hello there!
                 </span>
               </div>
