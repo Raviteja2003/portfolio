@@ -271,8 +271,8 @@ const Experience: React.FC = () => {
             asChild
           >
             <a
-              href="./Ravi_Teja_Tadikonda_Resume.pdf"
-              download="Ravi Teja Resume.pdf"
+              href="./Tadikonda_Ravi_Teja_Resume.pdf"
+              download="Tadikonda Ravi Teja Resume.pdf"
               className="flex items-center justify-center gap-2 px-6 py-3"
             >
               Download Full Resume

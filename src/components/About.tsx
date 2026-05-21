@@ -90,8 +90,8 @@ const About: React.FC = () => {
                 asChild
               >
                 <a
-                  href="./Ravi_Teja_Tadikonda_Resume.pdf"
-                  download="Ravi Teja Resume.pdf"
+                  href="./Tadikonda_Ravi_Teja_Resume.pdf"
+                  download="Tadikonda Ravi Teja Resume.pdf"
                   className="flex items-center gap-2"
                 >
                   <Download size={18} />

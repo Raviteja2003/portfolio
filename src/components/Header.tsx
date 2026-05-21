@@ -80,8 +80,8 @@ const Header = () => {
               asChild
             >
               <a
-                href="/Ravi_Teja_Tadikonda_Resume.pdf"
-                download="Ravi Teja Resume.pdf"
+                href="/Tadikonda_Ravi_Teja_Resume.pdf"
+                download="Tadikonda Ravi Teja Resume.pdf"
                 className="flex items-center gap-2"
                 aria-label="Download resume"
               >
@@ -135,8 +135,8 @@ const Header = () => {
                 asChild
               >
                 <a
-                  href="/Ravi_Teja_Tadikonda_Resume.pdf"
-                  download="Ravi Teja Tadikonda Resume.pdf"
+                  href="/Tadikonda_Ravi_Teja_Resume.pdf"
+                  download="Tadikonda Ravi Teja Resume.pdf"
                   className="flex items-center justify-center gap-2"
                   aria-label="Download resume"
                 >
