@@ -23,7 +23,30 @@ const SkillsData = [
     name: "Java Script",
     image: "./skills/javascript.png",
   },
-
+  {
+    name: "TypeScript",
+    image: "./skills/typescript.png",
+  },
+  {
+    name: "Python",
+    image: "./skills/python.png",
+  },
+  {
+    name: "FastAPI",
+    image: "./skills/FastAPI.png",
+  },
+  {
+    name: "PostgreSQL",
+    image: "./skills/PostgresSQL.png",
+  },
+  {
+    name: "Docker",
+    image: "./skills/docker.png",
+  },
+  {
+    name: "Azure",
+    image: "./skills/Azure.png",
+  },
   {
     name: "Java",
     image: "./skills/java.png",
